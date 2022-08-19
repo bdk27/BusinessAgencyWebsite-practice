@@ -576,7 +576,107 @@ footer .second-row .text{
     color: #1abc9c;
 }
 
-
+/* media query */
+@media (max-width: 946px){
+    .nav{
+        padding: 1rem 3rem;
+    }
+    .nav .navbar-social{
+        display: none;
+    }
+    .hero-text{
+       width: 60%;
+    }
+    .hero-text h3{
+        font-size: 33px;
+    }
+    #wrapper{
+        margin: 3rem 3rem 10rem 3rem;
+    }
+    .service{
+        margin-bottom: 3rem;
+    }
+    .service h6{
+        margin-bottom: 3rem;
+    }
+    .service .service-content{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .service .service-content .box{
+        width: 100%;
+    }
+    .service .service-content .box .box-one{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .service .service-content .service-img{
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+    .pricing .table{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .pricing .basic{
+       margin-bottom: 3rem;
+    }
+    .callToAct{
+        margin-bottom: 5rem;
+    }
+    .callToAct .parallax{
+        width: 80%;
+    }
+    .contact .form{
+        width: 80%;
+    }
+}
+@media (max-width: 774px){
+    .nav{
+        padding: 0.7rem 1rem;
+    }
+    .nav .navbar-toggler{
+        display: block;
+        position: absolute;
+        top: 26px;
+        right: 16px;
+        z-index: 10000000;
+    }
+    .nav .navbar-toggler .toggler-icon{
+        width: 27px;
+        height: 3px;
+        background-color: #121212;
+        margin: 5px 0;
+        position: relative;
+        display: block;
+        transition: .3s ease-in-out 0s;
+    }
+    .nav .menu-bar{
+       position: fixed;
+       top: 55px;
+       right: -360px;
+       width: 300px;
+       height: 100vh;
+       background-color: rgba(256, 256, 256, 0.9);
+       transition: .6s ease;
+    }
+    .nav .menu-bar .menu-items{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: justify;
+        padding: 40px 0;
+    }
+    .nav .menu-bar .menu-items li{
+        margin: 2rem 30px;
+    }
+   
+}
+@media (max-width: 541px){
+    
+}
 
 
 
