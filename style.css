@@ -672,10 +672,141 @@ footer .second-row .text{
     .nav .menu-bar .menu-items li{
         margin: 2rem 30px;
     }
-   
+    .hero-text{
+       width: 80%;
+    }
+    .hero-text h6{
+        font-size: 16px;
+    }
+    #wrapper{
+        margin: 3rem 1rem 10rem 1rem;
+    }
+    .service h3{
+        font-size: 33px;
+    }
+    .service h6{
+        font-size: 16px;
+    }
+    .service .service-content .service-img{
+        width: 90%;
+    }
+    .pricing h3{
+        font-size: 33px;
+    }
+    .pricing h6{
+        font-size: 16px;
+    }
+    .pricing .table{
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    .callToAct .parallax{
+        width: 90%;
+    }
+    .callToAct .parallax h3{
+        font-size: 33px;
+    }
+    .callToAct .parallax h6{
+        font-size: 16px;
+    }
+    .callToAct .parallax .call-news input{
+        font-size: 16px;
+    }
+    .callToAct .parallax .call-news button{
+        font-size: 15px;
+    }
+    .contact h3{
+        font-size: 33px;
+    }
+    .contact h6{
+        font-size: 16px;
+    }
+    .contact .form{
+        width: 80%;
+    }
+    .contact .form .header-btn a{
+        font-size: 16px;
+    }
+    footer{
+        padding: 4rem 1rem;
+    }
+    footer .second-row{
+        flex-wrap: wrap;
+    }
+    footer .second-row .first-row{
+        margin-bottom: 1rem;
+    }
+    
 }
 @media (max-width: 541px){
-    
+    .hero-text h3{
+        font-size: 28px;
+        line-height: 45px;
+     }
+    .hero-text .header-btn li a.main-btn{
+         margin-top: 0.7rem;
+    }
+    .hero-text .header-btn li a.main-btn{
+        font-size: 15px;
+   }
+    .service{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .service h6{
+        text-align: justify;
+    }
+    .service .service-content .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .service .service-content .box .box-one{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .callToAct .parallax h3{
+        font-size: 28px;
+        line-height: 45px;
+    }
+    .callToAct .parallax .call-news{
+        width: 300px;
+        height: 55px;
+        padding: 12px 0 12px 0;
+        display: block;
+        vertical-align: middle;
+        align-items: center;
+    }
+    .callToAct .parallax .call-news button{
+        font-size: 13px;
+        position: relative;
+        margin: 35px 0 0 0;
+        background: #fff;
+        color: #8816d1;
+    }
+    .contact .form{
+        width: 100%;
+    }
+    .contact .form .first-row, .contact .form .first-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .contact .form .first-row{
+        margin: 0 0;
+    }
+    .contact .form .first-row input, .contact .form .first-row input{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
 }
 
 
